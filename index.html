@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+}
+
+
+header {
+    background-color: #4CAF50;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    border-radius: 50px;
+    margin: 15px 0;
+   border:black;
+    
+}
+
+audio, video {
+    margin: 15px 0;
+    width: 50%;
+    
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+    </style>
+
+<header>
+    <h1>Welcome to Our Website</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About </a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Our Introduction</h2>
+
+    <p>Hello! This is our homepage. This page shows our personal picture, 
+    an audio explanation about this page, and a video of our previous activity.</p>
+
+
+    <img src="pictures.jpg" alt="My Picture">
+
+    
+    <h3>Audio Explanation</h3>
+    <audio controls>
+        <source src="video record.mp3" type="audio/mpeg">
+    </audio>
+
+   
+    <h3>My Previous Activity</h3>
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    
+    <p>Visit <a href="https://www.w3schools.com" target="_blank">W3Schools</a> to learn more about HTML.</p>
+</div>
+
+<footer>
+    <p>© 2026 Our Mini Website</p>
+</footer>
+
+</body>
+</html>
